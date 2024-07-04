@@ -65,7 +65,6 @@ cd ResNet18_K-fold_Data_Augmentation
       k_fold: 5
 
 5. **Running the Project
-
     To train and evaluate the model, run:
     ```bash
     python run.py
