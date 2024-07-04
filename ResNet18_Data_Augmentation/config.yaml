@@ -1,0 +1,21 @@
+model:
+  name: resnet18
+  pretrained: true
+
+data:
+  train_data_dir: 'C:\Users\deepl\PycharmProjects2\pythonProject\Data_Raw\chest_xray\chest_xray\train'
+  val_data_dir: 'C:\Users\deepl\PycharmProjects2\pythonProject\Data_Raw\chest_xray\chest_xray\val'
+  test_data_dir: 'C:\Users\deepl\PycharmProjects2\pythonProject\Data_Raw\chest_xray\chest_xray\test'
+  classes: [ 'NORMAL', 'PNEUMONIA' ]
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+
+
+training:
+  batch_size: 32
+  checkpoint_dir: 'C:\Users\deepl\PycharmProjects\pythonProject\ResNet18\Resnet_templateproject_updated\checkpoints'
+  learning_rate: 0.001
+  num_epochs: 5
+  seed: 42
+  k_folds: 5
+
