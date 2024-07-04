@@ -77,7 +77,12 @@ cd ResNet18_K-fold_Data_Augmentation
     F1 Score: 0.9433
     ROC AUC Score: 0.9303
 
-7. **Accessing Plots
+7. ** Accessing saved all saved models.
+    https://drive.google.com/drive/folders/1NE4BxboP3GMGw1w72aMLDv-tZqG6lZOH
+
+    Please use these following (username:deeplearningproject34@gmail.com)and (password:deeplearningTinaRohanAnil) if required.
+
+8. **Accessing Plots
     You can access the generated plots at the following link:
 
     Results and Plots: https://drive.google.com/drive/folders/1-4l3idNk2s6Be4-GcxY5tvEJagBHTSV0
@@ -85,7 +90,7 @@ cd ResNet18_K-fold_Data_Augmentation
      Please use these following (username:deeplearningproject34@gmail.com)and (password:deeplearningTinaRohanAnil) if required.
 
 
-8. **Explanation of Changes:
+9. **Explanation of Changes:
     1. **Added Better Structure and Formatting:**
     - Improved the readability of the setup instructions.
     - Added sections for better organization.
