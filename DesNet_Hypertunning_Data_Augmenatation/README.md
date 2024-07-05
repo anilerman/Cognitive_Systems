@@ -56,7 +56,7 @@ To run the notebooks, follow these steps:
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.8
 - Jupyter Notebook
 - TensorFlow / Keras
 - NumPy
